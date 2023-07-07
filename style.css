@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+}
+
+.board {
+  width: 33%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: 
+  "tl tc tr"
+  "cl cc cr"
+  "bl bc br";
+}
+
+.box {
+  width: 100%;
+  aspect-ratio: 1;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: gray;
+}
+
+.tl {
+  grid-area: "tl";
+}
+
+.tc {
+  grid-area: "tc";
+}
+
+.tr {
+  grid-area: "tr";
+}
+
+.cl {
+  grid-area: "cl";
+}
+
+.cc {
+  grid-area: "cc";
+}
+
+.cr {
+  grid-area: "cr";
+}
+
+.bl {
+  grid-area: "bl";
+}
+
+.bc {
+  grid-area: "bc";
+}
+
+.br {
+  grid-area: "br";
+}
+
+button {
+  margin: 5px;
+}
